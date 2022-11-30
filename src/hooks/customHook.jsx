@@ -21,7 +21,7 @@ function useInput(initialValue) {
   };
 }
 
-function App() {
+function customHook() {
   const input = useInput("");
   const lastName = useInput("");
 
@@ -39,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default customHook;

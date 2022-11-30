@@ -3,7 +3,7 @@ import Main from "../components/alert/Main";
 import Alert from "../components/alert/Alert";
 import { AlertProvider } from "../components/alert/AlertContext";
 
-function App() {
+function useReducer() {
   return (
     <AlertProvider>
       <div className={"container pt-3"}>
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default useReducer;
