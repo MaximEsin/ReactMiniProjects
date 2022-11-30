@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { useAlert } from "./AlertContext";
 
 export default function Alert() {
@@ -7,8 +7,8 @@ export default function Alert() {
   if (!alert.visible) return null;
 
   return (
-    <div className={"alert alert-danger"} onClick={alert.toggle}>
-      This is a very important message
+    <div className={"alert alert-danger"} onClick={alert.hide}>
+      {alert.text}
     </div>
   );
 }
