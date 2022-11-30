@@ -6,7 +6,7 @@ function complexCompute(num) {
   return num * 2;
 }
 
-function App() {
+function useMemo() {
   const [number, setNumber] = useState(42);
   const [colored, setColored] = useState(false);
 
@@ -49,4 +49,4 @@ function App() {
   );
 }
 
-export default App;
+export default useMemo;
