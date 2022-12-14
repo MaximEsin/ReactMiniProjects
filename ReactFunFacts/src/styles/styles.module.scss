@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  &__wrapper {
+    box-shadow: 0 10px 10px rgb(123, 122, 122);
+    background-color: #21222a;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  &__img {
+    width: 50px;
+  }
+  &__logo__text {
+    color: #61dafb;
+    font-size: 24px;
+  }
+  &__items {
+    list-style: none;
+    display: flex;
+  }
+  &__item {
+    padding-left: 80px;
+    font-size: 20px;
+    color: #deebf8;
+    text-decoration: none;
+  }
+}
+.main {
+  &__wrapper {
+    background-color: #282d35;
+    height: 43.5vw;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 50px;
+  }
+  &__title {
+    font-size: 42px;
+    color: #ffffff;
+  }
+  &__ul {
+    list-style: none;
+  }
+  &__item {
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: #ffffff;
+  }
+  &__item::before {
+    content: "\2022";
+    color: #61dafb;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  &__icon {
+    width: 263px;
+    height: 263px;
+    display: flex;
+    margin: 0 auto;
+  }
+}

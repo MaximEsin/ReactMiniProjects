@@ -1,18 +1,15 @@
 import React from "react";
-import "./App.css";
+import Header from "./components/header";
+import Main from "./components/main";
+import "./styles/normalize.css";
+import styles from "./styles/styles.module.scss";
 
 function App() {
   return (
-    <div className="App">
-      <nav>
-        <h1>Website</h1>
-        <ul>
-          <li>About</li>
-          <li>Pricing</li>
-          <li>Contacts</li>
-        </ul>
-      </nav>
-    </div>
+    <section className={styles.App}>
+      <Header />
+      <Main />
+    </section>
   );
 }
 
