@@ -1,1 +1,3 @@
 # Bussiness card
+
+Static page
