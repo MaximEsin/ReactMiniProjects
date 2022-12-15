@@ -1,0 +1,110 @@
+.App {
+  &__head {
+    background-color: #23252c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 49vw;
+  }
+  &__body {
+    background-color: #1a1b21;
+    width: 317px;
+    height: 350px;
+  }
+}
+.photo {
+  width: 311px;
+  height: 254px;
+  display: flex;
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.main {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  &__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  &__dev {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #f3bf99;
+    margin-bottom: 10px;
+  }
+  &__btn {
+    width: 247px;
+    height: 34px;
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}
+.article {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding-right: 39px;
+  }
+  &__section {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  &__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #f5f5f5;
+    padding-left: 35px;
+    margin-bottom: 0;
+  }
+  &__text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #dcdcdc;
+    padding-left: 35px;
+    padding-right: 39px;
+    margin-top: 0;
+    padding-bottom: 27px;
+  }
+}
+.footer {
+  &__wrapper {
+    background-color: #161619;
+    width: 317px;
+    height: 64px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__icon {
+    margin: 19.5px 0;
+  }
+}
