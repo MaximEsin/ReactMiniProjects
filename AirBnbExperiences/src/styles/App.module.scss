@@ -1,0 +1,69 @@
+.App {
+  &__wrapper {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__container {
+    width: 550px;
+  }
+}
+.header {
+  &__container {
+    margin-top: 5px;
+    background-color: #ffffff;
+    height: 70px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    z-index: 10;
+  }
+  &__logo {
+    width: 82px;
+    height: 25px;
+    padding-left: 30px;
+  }
+}
+.hero {
+  &__container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__img {
+    width: 395px;
+    height: 232px;
+    padding-top: 26px;
+  }
+  &__article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 36px;
+  }
+  &__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    color: #000000;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+  &__text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    color: #222222;
+    padding-right: 194px;
+    padding-bottom: 39px;
+  }
+}
