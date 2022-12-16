@@ -1,6 +1,6 @@
 # ReactMiniProjects
 
-- AirBnbExperiences - AirBnb clone with array
+- AirBnbExperiences - AirBnb clone
 
 - BussinessCard - Static page
 
