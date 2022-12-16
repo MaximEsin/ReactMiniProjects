@@ -1,0 +1,122 @@
+.App {
+  &__wrapper {
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.header {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  &__container {
+    margin-top: 5px;
+    width: 550px;
+    height: 55px;
+    background-color: #f55a5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #ffffff;
+    padding-left: 7px;
+  }
+}
+.main {
+  &__wrapper {
+    background-color: #ffffff;
+    display: flex;
+    width: 550px;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  &__container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+  }
+}
+.card {
+  &__container {
+    display: flex;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  &__img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  &__main {
+    padding-left: 19px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__head {
+    display: flex;
+    flex-direction: column;
+  }
+  &__head__location {
+    display: flex;
+    align-items: center;
+  }
+  &__head__location__country {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2b283a;
+    padding-left: 4px;
+    padding-right: 12px;
+  }
+  &__head__location__gmaps {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918e9b;
+  }
+  &__head__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2b283a;
+    margin: 0px;
+  }
+  &__body__date {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2b283a;
+    padding-top: 10px;
+  }
+  &__body__desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2b283a;
+  }
+}
